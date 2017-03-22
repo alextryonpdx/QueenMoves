@@ -5,7 +5,7 @@ also_reload('lib/**/*.rb')
 require('./lib/queen_moves')
 
 
-get('/form') do
+get('/') do
   erb(:form)
 end
 
